@@ -33,7 +33,7 @@ if ! grep -q "oh-my-posh init zsh" "$zsh_config"; then
   echo "eval \"\$(oh-my-posh init zsh --config $theme_path) \" " >> "$zsh_config"
 else
   echo "updating your zsh config..."
-  sed -i '' "s|oh-my-posh init zsh --config .*|oh-my-posh init zsh --config $theme_path )\"|" "$zsh_config"
+  sed -i '' "s|oh-my-posh init zsh --config .*|oh-my-posh init zsh --config $theme_path)\"|" "$zsh_config"
 fi
 
 echo "theme’s on! run 'source $zsh_config' or restart your terminal."
