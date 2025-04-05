@@ -26,4 +26,8 @@ else
   echo "oh-my-posh is good, you’re set!"
 fi
 
+# install Sauce Code Pro Nerd Font
+echo "grabbing Sauce Code Pro Nerd Font..."
+brew install --cask font-sauce-code-pro-nerd-font
+
 echo "all done here! now run ./apply_theme.sh to slap the theme on."
