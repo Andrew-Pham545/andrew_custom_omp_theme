@@ -1,8 +1,8 @@
 # Andrew's Oh My Posh Theme (installation script included) 
 
-A chill theme i whipped up for macOS. sticks an OS icon by your username.
-what this script do: install homebrew, oh-my-posh and sauce code pro font, apply my custom theme to your zsh 
-Only work for MacOs at the moment.
+* A chill theme i whipped up for macOS. sticks an OS icon by your username.
+* what this script do: install homebrew, oh-my-posh and sauce code pro font, apply my custom theme to your zsh 
+* Only work for MacOs at the moment.
 
 
 
