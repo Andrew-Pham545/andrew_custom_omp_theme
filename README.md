@@ -12,16 +12,16 @@
 
 
 
-Step by step guide:
+# Step by step guide:
 
-git clone https://github.com/Andrew-Pham545/andrew_omp/
+* git clone https://github.com/Andrew-Pham545/andrew_omp/
 
-cd andrew_omp
+* cd andrew_omp
 
-./install.sh
+* ./install.sh
 
-terminal --> command + , --> profile --> change you font to SauceCodePro Nerd Font
-vscode --> command + shift + p --> Preferences: Open User Settings --> search for: terminal font --> paste this: SauceCodePro Nerd Font --> restart vscode
+* terminal --> command + , --> profile --> change you font to SauceCodePro Nerd Font
+* vscode --> command + shift + p --> Preferences: Open User Settings --> search for: terminal font --> paste this: SauceCodePro Nerd Font --> restart vscode
 
-./apply_theme.sh
+* ./apply_theme.sh
 
