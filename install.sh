@@ -26,8 +26,13 @@ else
   echo "oh-my-posh is good, you’re set!"
 fi
 
-# install Sauce Code Pro Nerd Font
-echo "grabbing Sauce Code Pro Nerd Font..."
-brew install --cask font-sauce-code-pro-nerd-font
+# check and install Sauce Code Pro Nerd Font
+if ls ~/Library/Fonts | grep -q "SauceCodeProNerdFont-Regular.ttf"; then
+  echo "you’ve already got Sauce Code Pro Nerd Font, nice!"
+else
+  echo "grabbing Sauce Code Pro Nerd Font for ya..."
+  brew install --cask font-sauce-code-pro-nerd-font
+  echo "Sauce Code Pro Nerd Font installed! set it in your terminal settings (e.g., Terminal, iTerm2)."
+fi
 
 echo "all done here! now run ./apply_theme.sh to slap the theme on."
